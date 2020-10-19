@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pagina01');
 });
+Route::get('/pagina02', function () {
+    return view('pagina02');
+});
+Route::get('/pagina01', function () {
+    return view('pagina01');
+});
